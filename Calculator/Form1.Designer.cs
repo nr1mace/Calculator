@@ -54,6 +54,7 @@ namespace Calculator
             // 
             this.seven.BackColor = System.Drawing.Color.SlateGray;
             this.seven.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.seven.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.seven.Location = new System.Drawing.Point(12, 115);
             this.seven.Name = "seven";
             this.seven.Size = new System.Drawing.Size(163, 64);
@@ -65,10 +66,11 @@ namespace Calculator
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(858, 88);
+            this.textBox1.Size = new System.Drawing.Size(844, 88);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -76,6 +78,7 @@ namespace Calculator
             // 
             this.four.BackColor = System.Drawing.Color.SlateGray;
             this.four.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.four.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.four.Location = new System.Drawing.Point(12, 211);
             this.four.Name = "four";
             this.four.Size = new System.Drawing.Size(163, 64);
@@ -88,6 +91,7 @@ namespace Calculator
             // 
             this.one.BackColor = System.Drawing.Color.SlateGray;
             this.one.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.one.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.one.Location = new System.Drawing.Point(12, 300);
             this.one.Name = "one";
             this.one.Size = new System.Drawing.Size(163, 64);
@@ -100,6 +104,7 @@ namespace Calculator
             // 
             this.zero.BackColor = System.Drawing.Color.SlateGray;
             this.zero.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.zero.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.zero.Location = new System.Drawing.Point(12, 390);
             this.zero.Name = "zero";
             this.zero.Size = new System.Drawing.Size(163, 64);
@@ -112,6 +117,7 @@ namespace Calculator
             // 
             this.five.BackColor = System.Drawing.Color.SlateGray;
             this.five.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.five.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.five.Location = new System.Drawing.Point(213, 211);
             this.five.Name = "five";
             this.five.Size = new System.Drawing.Size(163, 64);
@@ -124,6 +130,7 @@ namespace Calculator
             // 
             this.eight.BackColor = System.Drawing.Color.SlateGray;
             this.eight.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.eight.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.eight.Location = new System.Drawing.Point(213, 116);
             this.eight.Name = "eight";
             this.eight.Size = new System.Drawing.Size(163, 64);
@@ -136,6 +143,7 @@ namespace Calculator
             // 
             this.two.BackColor = System.Drawing.Color.SlateGray;
             this.two.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.two.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.two.Location = new System.Drawing.Point(213, 300);
             this.two.Name = "two";
             this.two.Size = new System.Drawing.Size(163, 64);
@@ -148,6 +156,7 @@ namespace Calculator
             // 
             this.point.BackColor = System.Drawing.Color.SlateGray;
             this.point.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.point.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.point.Location = new System.Drawing.Point(213, 390);
             this.point.Name = "point";
             this.point.Size = new System.Drawing.Size(163, 64);
@@ -160,6 +169,7 @@ namespace Calculator
             // 
             this.nine.BackColor = System.Drawing.Color.SlateGray;
             this.nine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nine.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.nine.ForeColor = System.Drawing.SystemColors.ControlText;
             this.nine.Location = new System.Drawing.Point(430, 116);
             this.nine.Name = "nine";
@@ -173,6 +183,7 @@ namespace Calculator
             // 
             this.six.BackColor = System.Drawing.Color.SlateGray;
             this.six.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.six.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.six.Location = new System.Drawing.Point(430, 212);
             this.six.Name = "six";
             this.six.Size = new System.Drawing.Size(163, 64);
@@ -185,6 +196,7 @@ namespace Calculator
             // 
             this.three.BackColor = System.Drawing.Color.SlateGray;
             this.three.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.three.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.three.Location = new System.Drawing.Point(430, 301);
             this.three.Name = "three";
             this.three.Size = new System.Drawing.Size(163, 64);
@@ -197,6 +209,7 @@ namespace Calculator
             // 
             this.clear.BackColor = System.Drawing.Color.SlateGray;
             this.clear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clear.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.clear.Location = new System.Drawing.Point(430, 391);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(163, 64);
@@ -209,7 +222,8 @@ namespace Calculator
             // 
             this.divide.BackColor = System.Drawing.Color.SlateGray;
             this.divide.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.divide.Location = new System.Drawing.Point(707, 117);
+            this.divide.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.divide.Location = new System.Drawing.Point(693, 116);
             this.divide.Name = "divide";
             this.divide.Size = new System.Drawing.Size(163, 64);
             this.divide.TabIndex = 13;
@@ -221,7 +235,8 @@ namespace Calculator
             // 
             this.star.BackColor = System.Drawing.Color.SlateGray;
             this.star.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.star.Location = new System.Drawing.Point(707, 212);
+            this.star.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.star.Location = new System.Drawing.Point(693, 211);
             this.star.Name = "star";
             this.star.Size = new System.Drawing.Size(163, 64);
             this.star.TabIndex = 14;
@@ -233,8 +248,8 @@ namespace Calculator
             // 
             this.plus.BackColor = System.Drawing.Color.SlateGray;
             this.plus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.plus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.plus.Location = new System.Drawing.Point(707, 301);
+            this.plus.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.plus.Location = new System.Drawing.Point(693, 301);
             this.plus.Name = "plus";
             this.plus.Size = new System.Drawing.Size(163, 64);
             this.plus.TabIndex = 15;
@@ -246,8 +261,8 @@ namespace Calculator
             // 
             this.minus.BackColor = System.Drawing.Color.SlateGray;
             this.minus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.minus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.minus.Location = new System.Drawing.Point(707, 392);
+            this.minus.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.minus.Location = new System.Drawing.Point(693, 390);
             this.minus.Name = "minus";
             this.minus.Size = new System.Drawing.Size(163, 64);
             this.minus.TabIndex = 16;
