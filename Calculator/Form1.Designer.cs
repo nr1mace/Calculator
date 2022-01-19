@@ -209,7 +209,7 @@ namespace Calculator
             // 
             this.divide.BackColor = System.Drawing.Color.SlateGray;
             this.divide.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.divide.Location = new System.Drawing.Point(707, 116);
+            this.divide.Location = new System.Drawing.Point(707, 117);
             this.divide.Name = "divide";
             this.divide.Size = new System.Drawing.Size(163, 64);
             this.divide.TabIndex = 13;
